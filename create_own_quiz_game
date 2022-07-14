@@ -1,0 +1,26 @@
+
+# function that returns player_name
+def ask_player_name():
+    print("Enter your name below")
+    player_name = input()
+    return player_name
+
+# function that accepts player_name as argument
+# displays a welcome message
+def display_welcome_message(name): 
+    print(f"Welcome to the Quiz Game! {name}")
+    print("  , ; ,   .-\'\"\"\"\'-.   , ; ,\n  \\\\|/  .\'         \'.  \\|//\n   \\-;-/   ()   ()   \\-;-/\n   // ;               ; \\\\\n  //__; :.         .; ;__\\\\\n `-----\\\'.\'-.....-\'.\'/-----\'\n        \'.\'.-.-,_.\'.\'\n          \'(  (..-\'\n            \'-\'")
+
+# displays press q to start
+def display_start_game_message():
+    print("Press 'q' to start")
+
+returned_name = ask_player_name()
+display_welcome_message(name = returned_name)   
+display_start_game_message() 
+
+# print("Enter your name below")
+# player_name = input()
+# print(f"Welcome to the Quiz Game! {player_name}")
+# print("  , ; ,   .-\'\"\"\"\'-.   , ; ,\n  \\\\|/  .\'         \'.  \\|//\n   \\-;-/   ()   ()   \\-;-/\n   // ;               ; \\\\\n  //__; :.         .; ;__\\\\\n `-----\\\'.\'-.....-\'.\'/-----\'\n        \'.\'.-.-,_.\'.\'\n          \'(  (..-\'\n            \'-\'")
+# print("Press 'q' to start")

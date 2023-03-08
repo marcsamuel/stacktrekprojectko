@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Envelope Addresses</title>
+	<style>
+		.address-container {
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			margin-bottom: 1rem;
+		}
+
+		.address-container p {
+			margin: 0;
+			font-size: 1.2rem;
+			line-height: 1.5;
+		}
+
+		.sender-address {
+			margin-right: auto;
+			text-align: left;
+		}
+
+		.recipient-address {
+			margin: 0 auto;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+
+	<!-- Sender's Address -->
+	<div class="address-container sender-address">
+		<p>Marc Samuel Pabilona</p>
+		<p>123 Main Street</p>
+		<p>Anytown, USA 12345</p>
+	</div>
+
+	<!-- Recipient's Address -->
+	<div class="address-container recipient-address">
+		<p>Manuel Pabilona Jr.</p>
+		<p>456 Elm Street</p>
+		<p>Somecity, USA 67890</p>
+	</div>
+
+</body>
+</html>

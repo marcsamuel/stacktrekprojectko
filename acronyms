@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Funny Acronyms</title>
+	<style>
+		.acronym-list {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin-top: 2rem;
+			font-size: 1.5rem;
+		}
+
+		.acronym-item {
+			margin-bottom: 2rem;
+			cursor: help;
+		}
+
+		.acronym-item:hover .acronym-description {
+			display: block;
+		}
+
+		.acronym-description {
+			display: none;
+			margin-top: 0.5rem;
+			font-size: 1rem;
+			color: #888;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="acronym-list">
+		<div class="acronym-item">
+			BOSS
+			<span class="acronym-description">Barking Orders So Snidely</span>
+		</div>
+		<div class="acronym-item">
+			DIET
+			<span class="acronym-description">Do I Eat Today?</span>
+		</div>
+		<div class="acronym-item">
+			FAIL
+			<span class="acronym-description">Forget About It, Loser</span>
+		</div>
+		<div class="acronym-item">
+			HATERS
+			<span class="acronym-description">Having Anger Towards Everyone Reaching Success</span>
+		</div>
+		<div class="acronym-item">
+			HUSBAND
+			<span class="acronym-description">Heartthrob Usefully Serving Bond And Never Deserting</span>
+		</div>
+		<div class="acronym-item">
+			LOVE
+			<span class="acronym-description">Loss Of Valuable Energy</span>
+		</div>
+		<div class="acronym-item">
+			MAID
+			<span class="acronym-description">Mother Actually In Disguise</span>
+		</div>
+		<div class="acronym-item">
+			NAKED
+			<span class="acronym-description">No Attire; Keep Eyes Averted</span>
+		</div>
+		<div class="acronym-item">
+			STRESS
+			<span class="acronym-description">Stuff To Remember Every Single Second</span>
+		</div>
+		<div class="acronym-item">
+			WIFE
+			<span class="acronym-description">Worries Invited For Ever</span>
+		</div>
+	</div>
+
+</body>
+</html>

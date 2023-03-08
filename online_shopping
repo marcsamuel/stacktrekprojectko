@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online Shopping Platforms</title>
+	<style>
+		.shopping-links {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			margin: 2rem auto;
+			width: 80%;
+		}
+
+		.shopping-links img {
+			max-width: 100%;
+			height: auto;
+			cursor: pointer;
+			transition: all 0.2s ease-in-out;
+		}
+
+		.shopping-links img:hover {
+			transform: scale(1.1);
+		}
+	</style>
+</head>
+<body>
+
+	<div class="shopping-links">
+		<a href="https://shopee.com/"><img src="shopee-icon.png" alt="Shopee"></a>
+		<a href="https://www.lazada.com/"><img src="lazada-icon.png" alt="Lazada"></a>
+		<a href="https://www.shein.com/"><img src="shein-icon.png" alt="Shein"></a>
+		<a href="https://www.amazon.com/"><img src="amazon-icon.png" alt="Amazon"></a>
+		<a href="https://www.ebay.com/"><img src="ebay-icon.png" alt="eBay"></a>
+	</div>
+
+</body>
+</html>

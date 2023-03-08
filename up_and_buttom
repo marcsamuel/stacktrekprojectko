@@ -1,0 +1,28 @@
+<!-- Link to jump to bottom of page -->
+<a href="#bottom">Jump to Bottom</a>
+
+<!-- Main content of the page -->
+<h1>Welcome to the Page</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet turpis massa. Fusce consequat ante eget justo egestas, in dapibus felis placerat. Curabitur aliquet dictum ex eu dapibus. Vestibulum non neque ac justo eleifend malesuada. Proin ac lorem metus. Nam aliquet augue at mi elementum, eu vestibulum metus bibendum. Donec vitae tellus id nibh pulvinar pretium. Nullam at lectus elit. Fusce eget urna eu dolor laoreet tempor nec vel mauris. Fusce accumsan, dui eu pulvinar gravida, ipsum risus vehicula lacus, in dapibus nulla augue ac ipsum. Donec pulvinar felis nec dapibus luctus.</p>
+
+<p>Donec feugiat enim quam, eu iaculis massa tristique sed. Nam et pharetra justo. Donec sed urna erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut vel eros eget lectus rutrum dapibus ac in lacus. Aenean malesuada eleifend justo sit amet hendrerit. Etiam ut mauris eu augue commodo dignissim vel vel lorem. Donec lacinia dolor augue, eget congue mi congue id. Fusce ultricies turpis at lectus lacinia, vel blandit enim maximus. Quisque gravida, lectus eget aliquam scelerisque, nisi sapien dapibus nulla, vitae sagittis ex augue ac metus. Suspendisse in velit sit amet magna suscipit gravida eget sit amet ante. Maecenas congue ex velit, vitae vehicula elit vehicula vel. Morbi vel quam eget elit euismod dapibus. Vivamus sed arcu sapien. Praesent tincidunt euismod ex, a gravida felis aliquam nec. Duis consectetur bibendum enim, eu bibendum odio varius ac.</p>
+
+<!-- Link to jump back to top of page -->
+<a href="#top" class="back-to-top">Back to Top</a>
+
+<!-- Anchor tag for bottom of page -->
+<a name="bottom"></a>
+
+<!-- Script for showing/hiding link to jump back to top -->
+<script>
+	window.onscroll = function() {scrollFunction()};
+
+	function scrollFunction() {
+	  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+	    document.getElementsByClassName("back-to-top")[0].style.display = "block";
+	  } else {
+	    document.getElementsByClassName("back-to-top")[0].style.display = "none";
+	  }
+	}
+
+</script>
